@@ -1,11 +1,36 @@
 <html>
-<head>
-<link rel="stylesheet" href="desktopsms_style.css" type="text/css" />
-<script src="jquery-1.6.1.min.js"></script>
-<script src="dsmsScript.js"></script>
-</head>
-<body>
-<div class="containtContent" id="content">
-</div>
-</body>
+  <head>
+    <link rel="stylesheet" href="desktopsms_style.css" type="text/css" />
+    <script src="jquery-1.6.1.min.js"></script>
+    <script src="https://raw.github.com/koush/ROMManagerManifest/gh-pages/sprintf.js">
+    </script>
+    <script src="dsmsScript.js"></script>
+  </head>
+  <body>
+    <div class="containContent" id="content">
+        DeskSMS
+        <ul>
+            <li id="inboxListItem"><a href="#content" id="inbox">Inbox</a></li>
+            <li id="sendListItem"><a href="#content" id="text">Text</a></li>
+        </ul>
+        <br /><br />
+        <a href="#">Go to Inbox</a>
+        <br /><br />
+        <div id="txtStreamFrame">
+          <iframe src="stream.html"></iframe>
+        </div>
+        <div id="containText" class="hide">
+            <form>
+                Phone Number: <br /><br />
+                <select>
+                </select>
+                <br /><br />
+                Message: <br /><br />
+                <textarea name="" value="" rows="5" columns="20"/></textarea>
+                <br /><br />
+                <input type="button" name="" value="Send Message!" /><br />
+            </form>
+        </div>
+    </div>
+  </body>
 </html>

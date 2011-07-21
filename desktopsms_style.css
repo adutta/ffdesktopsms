@@ -1,11 +1,56 @@
 body{
     font-family: Arial;
+    font-size: 14px;
 }
 
-.containContent{
-    
+div.containContent{
+    width: 300px;
+}
+
+div.incoming{
+    background-color: #ADF;
+    color: #000;
+    border-bottom: solid #FFF 1px;
+}
+
+div.outgoing{
+    background-color: #AFD;
+    color: #000;
+    border-bottom: solid #FFF 1px;
+}
+
+div.txtThread{
+    border: solid 1px;
+    border-radius:5px;
+    padding: 2px;
+}
+
+div#msg{
+    border: solid 1px;
+    padding: 5px 0px 0px 5px;
+}
+
+div#send{
+    border: solid 1px;
+    padding: 5px 0px 0px 0px;
 }
 
 .hide{
     display: none;
+}
+
+iframe{
+    border: 0px;
+}
+
+ul
+{
+    float: right;
+    list-style-type:none;
+    margin: 0;
+}
+
+li{
+    display: inline;
+    padding: 0;
 }
